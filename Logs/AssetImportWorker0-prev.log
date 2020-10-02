@@ -15,33 +15,11 @@ C:/GIT/Space_Wars/Piloto_Space_Wars
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53635
+49880
 Successfully changed project path to: C:/GIT/Space_Wars/Piloto_Space_Wars
 C:/GIT/Space_Wars/Piloto_Space_Wars
 Using Asset Import Pipeline V2.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Refreshing native plugins compatible for Editor in 120.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 159.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0b4 (7b778e331e0b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/Resources/UnitySubsystems
@@ -57,1132 +35,408 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003311 seconds.
+Registered in 0.003195 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 65.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.768 seconds
+- Completed reload, in  3.053 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004229 seconds.
+Registered in 0.004529 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.531 seconds
+- Completed reload, in  1.537 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.36 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
+System memory in use after: 65.2 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 1816.
-Total: 3.002600 ms (FindLiveObjects: 0.444000 ms CreateObjectMapping: 0.146600 ms MarkObjects: 2.330500 ms  DeleteObjects: 0.079700 ms)
+Total: 2.691300 ms (FindLiveObjects: 0.406300 ms CreateObjectMapping: 0.087100 ms MarkObjects: 2.109400 ms  DeleteObjects: 0.086600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SecondLevel.unity
-  artifactKey: Guid(0d952d9d3fdfa5f47a0e4330a6bfda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SecondLevel.unity using Guid(0d952d9d3fdfa5f47a0e4330a6bfda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e1ab27d9710504806fe19d86669d73') in 0.076178 seconds
-  Import took 0.108010 seconds .
+  path: Assets/Sprites/UISprites/MenuBtn.png
+  artifactKey: Guid(377a0a70cc1cdc44abad475ab32cb9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/MenuBtn.png using Guid(377a0a70cc1cdc44abad475ab32cb9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b2d8bb7d846446af55f6614393781c') in 0.605896 seconds
+  Import took 0.640051 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/Scenes/ThirdLevel.unity
-  artifactKey: Guid(6f63c0b422e40594e9be895bc32aa2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ThirdLevel.unity using Guid(6f63c0b422e40594e9be895bc32aa2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a3e31dcc4bf10235995c55ce03a88a') in 0.025922 seconds
-  Import took 0.044365 seconds .
-
-========================================================================
-Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Reloading mono domain
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003245 seconds.
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.70 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.696 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.004129 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.457 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 38.4 MB.
-System memory in use after: 38.5 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1820.
-Total: 3.372300 ms (FindLiveObjects: 0.417400 ms CreateObjectMapping: 0.098100 ms MarkObjects: 2.824400 ms  DeleteObjects: 0.029900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 176.993295 seconds.
-  path: Assets/Sprites/PlayerSprites/dino-spaceship-flying-game-character.png
-  artifactKey: Guid(0a30cb859c538ad4892f546e44d86efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlayerSprites/dino-spaceship-flying-game-character.png using Guid(0a30cb859c538ad4892f546e44d86efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69ec92e264e5dc18e4c5ce8b95a5026') in 1.116935 seconds
-  Import took 1.148016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/Sprites/PlayerSprites/fish-spaceship-game-character 1.png
-  artifactKey: Guid(89f60b6b7485bcc43a5731ef07752250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlayerSprites/fish-spaceship-game-character 1.png using Guid(89f60b6b7485bcc43a5731ef07752250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862cab96cdaf357d6acb26c61d890ba3') in 0.050175 seconds
-  Import took 0.080104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/Sprites/PlayerSprites/Thrust.anim
-  artifactKey: Guid(045f3a15b9263fd4487ab9c610481530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlayerSprites/Thrust.anim using Guid(045f3a15b9263fd4487ab9c610481530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258f452b97a369654f2c72b58a1b1c73') in 0.111849 seconds
-  Import took 0.142918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Sprites/MiscSprites/ExplosionAnim.anim
-  artifactKey: Guid(518c64c4f62d3ad4288b78dfc6075ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiscSprites/ExplosionAnim.anim using Guid(518c64c4f62d3ad4288b78dfc6075ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4570cbaa227f51b5975a2fd6d9cc90') in 0.044281 seconds
-  Import took 0.076536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/Sprites/MiscSprites/explosion-4_05.controller
-  artifactKey: Guid(c9ccf2467df53564c8afe813420719a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiscSprites/explosion-4_05.controller using Guid(c9ccf2467df53564c8afe813420719a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7b2c87121373301f82fbb70093f83e') in 0.055173 seconds
-  Import took 0.077960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001823 seconds.
-  path: Assets/Sprites/MiscSprites/explosion-2.png
-  artifactKey: Guid(538467e996bb01f42a2ebe3678dbbed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiscSprites/explosion-2.png using Guid(538467e996bb01f42a2ebe3678dbbed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4aa3a7c890365853f05f4f38b3721be') in 0.198299 seconds
-  Import took 0.236581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Sprites/MiscSprites/M484ExplosionSet1.png
-  artifactKey: Guid(b20128abb14f7d641ba40ef12e4df403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiscSprites/M484ExplosionSet1.png using Guid(b20128abb14f7d641ba40ef12e4df403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb8bce149483d28adba38d71fc81ead') in 0.142335 seconds
-  Import took 0.148393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000516 seconds.
-  path: Assets/Sprites/MiscSprites/achievements.png
-  artifactKey: Guid(6839c4467cfa9b94eb122e3347d31d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiscSprites/achievements.png using Guid(6839c4467cfa9b94eb122e3347d31d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2aa6a50e4be4b26a8f72510a81c1db4') in 0.347214 seconds
-  Import took 0.374940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Sprites/EnvironmentSprites/Background-1.png
-  artifactKey: Guid(d747c4dde1068dd42a076cfcebf2bd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnvironmentSprites/Background-1.png using Guid(d747c4dde1068dd42a076cfcebf2bd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca286fa431eb8ce8f94e92b53b1527a') in 0.121698 seconds
-  Import took 0.143327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Sprites/EnemySprites/Cruncher
-  artifactKey: Guid(ef44778415da25e43b10544e111a706c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnemySprites/Cruncher using Guid(ef44778415da25e43b10544e111a706c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007d5a45dbe57be8585041e35d7847b0') in 0.031086 seconds
-  Import took 0.035870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets/Sprites/EnvironmentSprites/Full-Background 4.png
-  artifactKey: Guid(a83d631d06c4d1341a91205118133c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnvironmentSprites/Full-Background 4.png using Guid(a83d631d06c4d1341a91205118133c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe599c1591f15b237599282eb37ae99d') in 0.123337 seconds
-  Import took 0.137064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000537 seconds.
-  path: Assets/Sprites/EnvironmentSprites/Full-background 3.png
-  artifactKey: Guid(d549a8d1d9d4458409c95381d2bbd9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnvironmentSprites/Full-background 3.png using Guid(d549a8d1d9d4458409c95381d2bbd9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d9917ebd0e35af6112c96d0d7cbb68') in 0.142843 seconds
-  Import took 0.162632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Sprites/EnvironmentSprites/full-background 1.png
-  artifactKey: Guid(c8c669b3931e1eb4b846c7d3bff8760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnvironmentSprites/full-background 1.png using Guid(c8c669b3931e1eb4b846c7d3bff8760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682a92cae66086135e2fb6adccf5109d') in 0.091249 seconds
-  Import took 0.097030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/Sprites/EnvironmentSprites/full-bg 1.png
-  artifactKey: Guid(5be6df8c24ac96043bf08c1c0bb3e241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnvironmentSprites/full-bg 1.png using Guid(5be6df8c24ac96043bf08c1c0bb3e241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fd5a5f66c3e3058bb60accccb7d7cd') in 0.262055 seconds
-  Import took 0.268774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Sprites/EnemySprites/Dragon
-  artifactKey: Guid(35d7055b0958d53459cafe0e4a323bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnemySprites/Dragon using Guid(35d7055b0958d53459cafe0e4a323bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af777082dca0ca98338327843b29e6a5') in 0.155598 seconds
-  Import took 0.172329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Sprites/ItemSprites/Coins
-  artifactKey: Guid(645b03553579a72458ff4181eeb98663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/ItemSprites/Coins using Guid(645b03553579a72458ff4181eeb98663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d161cd3d7636d95e1cf3c36b6a5393') in 0.032261 seconds
-  Import took 0.040245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/Sprites/MiscSprites/explosion-4.png
-  artifactKey: Guid(aa17d09ab207db74ebe2853342f05345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiscSprites/explosion-4.png using Guid(aa17d09ab207db74ebe2853342f05345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458f86e0189c63c6d330f592d4720347') in 0.204490 seconds
-  Import took 0.222255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/Sprites/PlayerSprites/skeleton-MovingNIdle_0.png
-  artifactKey: Guid(7f7b4463f92120c49ac2b76e97ba236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlayerSprites/skeleton-MovingNIdle_0.png using Guid(7f7b4463f92120c49ac2b76e97ba236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea9a53e6c46e7f4ff2335e4d1a57ab5') in 0.122107 seconds
-  Import took 0.131681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/Sprites/EnvironmentSprites/full-background 5.png
-  artifactKey: Guid(9f7d15b33e85d124497a83a1215211bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnvironmentSprites/full-background 5.png using Guid(9f7d15b33e85d124497a83a1215211bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86c3302b9fa3e4bbf95d5cf49f0e10e') in 0.123894 seconds
-  Import took 0.144248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000552 seconds.
-  path: Assets/Sprites/MiscSprites/explosion-6_0.controller
-  artifactKey: Guid(b16eadd5c789ab44b85b1134ba27cf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiscSprites/explosion-6_0.controller using Guid(b16eadd5c789ab44b85b1134ba27cf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c15159672500e0557b5ddfb381ed997') in 0.030395 seconds
-  Import took 0.068795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000535 seconds.
-  path: Assets/Sprites/PlayerSprites/Smiling-spaceship-game-character.png
-  artifactKey: Guid(61a02d659e2dbb246bbdba15c10bdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlayerSprites/Smiling-spaceship-game-character.png using Guid(61a02d659e2dbb246bbdba15c10bdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f14f1b94a1a52ec496725601165c15') in 0.083132 seconds
-  Import took 0.111151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/Sprites/MiscSprites/New Animation.anim
-  artifactKey: Guid(39cdeb4874a22f64fbc75a2a45526ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiscSprites/New Animation.anim using Guid(39cdeb4874a22f64fbc75a2a45526ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b4457c34f809740a82bb7c5bca5d66') in 0.033778 seconds
-  Import took 0.072580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000652 seconds.
-  path: Assets/Sprites/ItemSprites/Powerup
-  artifactKey: Guid(292808d35a62a734fa5eba89fda0699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/ItemSprites/Powerup using Guid(292808d35a62a734fa5eba89fda0699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ece6dc203a5c2249fa84935fca622c0') in 0.031913 seconds
-  Import took 0.073024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000493 seconds.
-  path: Assets/Sprites/EnvironmentSprites/full-background 2.png
-  artifactKey: Guid(e256667a9c656444083fa260e6ccf07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnvironmentSprites/full-background 2.png using Guid(e256667a9c656444083fa260e6ccf07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26775554c55a5de5adcf117a3927fb46') in 0.048022 seconds
-  Import took 0.055605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000591 seconds.
-  path: Assets/Sprites/PlayerSprites/frame2 - Copy_0.controller
-  artifactKey: Guid(14df64d63d03d1a479e7d2912c036963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlayerSprites/frame2 - Copy_0.controller using Guid(14df64d63d03d1a479e7d2912c036963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851c5bc409089ba37f3ae929f08021c2') in 0.028012 seconds
-  Import took 0.045521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000958 seconds.
-  path: Assets/Sprites/MiscSprites/explosion-3.png
-  artifactKey: Guid(ee7aed8fc9c96a74b972703d6fb18d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiscSprites/explosion-3.png using Guid(ee7aed8fc9c96a74b972703d6fb18d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a64d775d6da5693c1b19b413a4bea21') in 0.155198 seconds
-  Import took 0.177100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000564 seconds.
-  path: Assets/Sprites/EnvironmentSprites/full-bg.png
-  artifactKey: Guid(b25db01bf9d1fd94bb2d58cea04d167c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnvironmentSprites/full-bg.png using Guid(b25db01bf9d1fd94bb2d58cea04d167c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b41d840d4e0449cc5e5b2ceb733f74') in 0.283887 seconds
-  Import took 0.314387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/Sprites/ItemSprites/Health
-  artifactKey: Guid(005444c3ac1dc8a4c9ef6b5d8895a41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/ItemSprites/Health using Guid(005444c3ac1dc8a4c9ef6b5d8895a41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580deab44d6c8b9657a544c3193d07f9') in 0.032097 seconds
-  Import took 0.052898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000665 seconds.
-  path: Assets/Sprites/MiscSprites/Explosion.png
-  artifactKey: Guid(09a3752718c555c418d63eff2736aa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiscSprites/Explosion.png using Guid(09a3752718c555c418d63eff2736aa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a17d35a41514f4bf92b8e71536ef08c') in 0.129941 seconds
-  Import took 0.135296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Sprites/MiscSprites/explosion-6.png
-  artifactKey: Guid(05552f6cbf133f645b145a3bcbc52ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiscSprites/explosion-6.png using Guid(05552f6cbf133f645b145a3bcbc52ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b919b8328f6f65a9384445d57d621595') in 0.064715 seconds
-  Import took 0.099133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000548 seconds.
-  path: Assets/Sprites/MiscSprites/Explosion_0 (1).controller
-  artifactKey: Guid(14ea097b855260340b8d4398ff61d23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiscSprites/Explosion_0 (1).controller using Guid(14ea097b855260340b8d4398ff61d23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a451b86244f175cc33245fb4b5bb74d') in 0.052899 seconds
-  Import took 0.082595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001700 seconds.
-  path: Assets/Sprites/EnvironmentSprites/full-background.png
-  artifactKey: Guid(75436dbb12f277840b85aedfebef272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnvironmentSprites/full-background.png using Guid(75436dbb12f277840b85aedfebef272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6716e8320459f85a5c6acc6412d18289') in 0.057972 seconds
-  Import took 0.065111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000565 seconds.
-  path: Assets/Sprites/MiscSprites/ExplosionAnim2.anim
-  artifactKey: Guid(57967518f87d050459c149fe48fff6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MiscSprites/ExplosionAnim2.anim using Guid(57967518f87d050459c149fe48fff6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484d1d09612552396070a7d40d965d7b') in 0.019104 seconds
-  Import took 0.023657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000456 seconds.
-  path: Assets/Sprites/EnvironmentSprites/layer-1.png
-  artifactKey: Guid(d8e67e6394cd6a54ba8d86dba3038167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnvironmentSprites/layer-1.png using Guid(d8e67e6394cd6a54ba8d86dba3038167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e18e5a66ef9eb108abb7dc64932471b') in 0.092858 seconds
-  Import took 0.121967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000877 seconds.
-  path: Assets/Sprites/EnemySprites/UFO
-  artifactKey: Guid(ac73b234f4bbc614d89b371a3734cfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnemySprites/UFO using Guid(ac73b234f4bbc614d89b371a3734cfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f32c6023b68dda7cb130c3ec3d6d89') in 0.019055 seconds
-  Import took 0.026758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.383003 seconds.
-  path: Assets/Sprites/EnemySprites/Dragon/Dragon1.png
-  artifactKey: Guid(d486b5d74fb642541b8dc26498598add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnemySprites/Dragon/Dragon1.png using Guid(d486b5d74fb642541b8dc26498598add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3010d8084b07fa63b590939b54b8af') in 0.066646 seconds
-  Import took 0.072523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/Sprites/EnemySprites/Dragon/Dragon3.png
-  artifactKey: Guid(b8ca06fe3d59fed4aae0e958e2353061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnemySprites/Dragon/Dragon3.png using Guid(b8ca06fe3d59fed4aae0e958e2353061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841a4c217c3f03e945ac242b474d7c6b') in 0.040901 seconds
-  Import took 0.050919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000537 seconds.
-  path: Assets/Sprites/EnemySprites/Dragon/DragonAnim.anim
-  artifactKey: Guid(e90bddd203c5b5f408e81aecf988832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnemySprites/Dragon/DragonAnim.anim using Guid(e90bddd203c5b5f408e81aecf988832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb644377b06894cb68cd857a6be5942e') in 0.016999 seconds
-  Import took 0.030432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000766 seconds.
-  path: Assets/Sprites/EnemySprites/Dragon/Dragon4.png
-  artifactKey: Guid(b71a7f743fb4a174fac2e8cc12da6912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnemySprites/Dragon/Dragon4.png using Guid(b71a7f743fb4a174fac2e8cc12da6912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96620ffc0c1f9e518e8f2e836c74298d') in 0.042067 seconds
-  Import took 0.062016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000686 seconds.
-  path: Assets/Sprites/EnemySprites/Dragon/Dragon4.controller
-  artifactKey: Guid(b1fb9d3fb017b21478203c07b7ee144f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnemySprites/Dragon/Dragon4.controller using Guid(b1fb9d3fb017b21478203c07b7ee144f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce1ff003119c07c677edac8b6897861') in 0.008681 seconds
-  Import took 0.013906 seconds .
+  Time since last request: 0.000486 seconds.
+  path: Assets/Sprites/UISprites/Pause-Btn.png
+  artifactKey: Guid(c02a3d824e3e5144b9d2655de0508d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/Pause-Btn.png using Guid(c02a3d824e3e5144b9d2655de0508d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53d858db44a73566dc319eca6b5c8bd') in 0.061932 seconds
+  Import took 0.100375 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000454 seconds.
-  path: Assets/Sprites/EnemySprites/Dragon/Dragon2.png
-  artifactKey: Guid(e2661c6970e1aca4f83994ece03e074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnemySprites/Dragon/Dragon2.png using Guid(e2661c6970e1aca4f83994ece03e074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c232035fc4286f3e26a3f37d8bc68a8a') in 0.041324 seconds
-  Import took 0.071398 seconds .
+  path: Assets/Sprites/UISprites/RestartBtn.png
+  artifactKey: Guid(39b327d5320e16a4a8aee99e2eb3fb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/RestartBtn.png using Guid(39b327d5320e16a4a8aee99e2eb3fb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05548ebefb6f40dfef74202a2f5ea6fe') in 0.052173 seconds
+  Import took 0.090483 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001232 seconds.
-  path: Assets/Sprites/EnemySprites/Dragon/Dragon2.png
-  artifactKey: Guid(e2661c6970e1aca4f83994ece03e074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnemySprites/Dragon/Dragon2.png using Guid(e2661c6970e1aca4f83994ece03e074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c232035fc4286f3e26a3f37d8bc68a8a') in 0.030735 seconds
-  Import took 0.036649 seconds .
+  Time since last request: 0.000410 seconds.
+  path: Assets/Sprites/UISprites/Window.png
+  artifactKey: Guid(abd6e093eb55d3e4c9aa8cdf2f5841dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/Window.png using Guid(abd6e093eb55d3e4c9aa8cdf2f5841dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8ecef6870967a57daaf31574a034b6') in 0.835283 seconds
+  Import took 0.861563 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.062680 seconds.
-  path: Assets/Sprites/EnemySprites/UFO/ufo_game_enemy.png
-  artifactKey: Guid(5fb2d6480de4cf548a924f4afbe97f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/EnemySprites/UFO/ufo_game_enemy.png using Guid(5fb2d6480de4cf548a924f4afbe97f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e992ca3547b9374d794855df843db0') in 0.044092 seconds
-  Import took 0.095100 seconds .
+  Time since last request: 0.000449 seconds.
+  path: Assets/Sprites/UISprites/jumpCtrler - Copia.png
+  artifactKey: Guid(4f935d7ad754c154eacf97409983f14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/jumpCtrler - Copia.png using Guid(4f935d7ad754c154eacf97409983f14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8afd9d5a315d0375b7fa6f1daae2725') in 0.064261 seconds
+  Import took 0.114748 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.841907 seconds.
-  path: Assets/Materials/Background 1.mat
-  artifactKey: Guid(7093ebc5edf5f1e4ca7fb93de982e59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Background 1.mat using Guid(7093ebc5edf5f1e4ca7fb93de982e59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754153ac22daa4959b1c866b747dfe2c') in 0.181526 seconds
-  Import took 0.203981 seconds .
+  Time since last request: 0.000473 seconds.
+  path: Assets/Sprites/UISprites/shootCtrl.png
+  artifactKey: Guid(2720fc2739a849e4ba887ad08100cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/shootCtrl.png using Guid(2720fc2739a849e4ba887ad08100cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fe15b770984be5bb3d724e7b2e4675') in 0.078074 seconds
+  Import took 0.099173 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Materials/Background 3.mat
-  artifactKey: Guid(15a7ef5eefcf0714fbe09363e6305173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Background 3.mat using Guid(15a7ef5eefcf0714fbe09363e6305173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789f8b4589ae78694434060a53191f77') in 0.034518 seconds
-  Import took 0.059408 seconds .
+  Time since last request: 0.000624 seconds.
+  path: Assets/Sprites/UISprites/jumpCtrler - Copia.png
+  artifactKey: Guid(4f935d7ad754c154eacf97409983f14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/jumpCtrler - Copia.png using Guid(4f935d7ad754c154eacf97409983f14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8afd9d5a315d0375b7fa6f1daae2725') in 0.033818 seconds
+  Import took 0.065500 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000645 seconds.
-  path: Assets/Materials/Background 2.mat
-  artifactKey: Guid(9f04cda270e08bf48999440b1907d950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Background 2.mat using Guid(9f04cda270e08bf48999440b1907d950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd91065bb3fc528bff493df4998a6952') in 0.048029 seconds
-  Import took 0.068643 seconds .
+  Time since last request: 0.000445 seconds.
+  path: Assets/Sprites/UISprites/jumpCtrler.png
+  artifactKey: Guid(0b625d59cc920c94088b7a322022a676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/jumpCtrler.png using Guid(0b625d59cc920c94088b7a322022a676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0fa1e81a7582f02754fc7937de092d') in 0.070430 seconds
+  Import took 0.101778 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.751335 seconds.
-  path: Assets/Prefabs/SmileShip.prefab
-  artifactKey: Guid(2b94e56ed03ce37448fe99c64265cdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SmileShip.prefab using Guid(2b94e56ed03ce37448fe99c64265cdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e95d340f3ec8b4c91d867c39ba92dd9') in 0.226118 seconds
-  Import took 0.252582 seconds .
+  Time since last request: 0.000386 seconds.
+  path: Assets/Sprites/UISprites/LittleRobotSoundFactory_Logo_Big_00.png
+  artifactKey: Guid(847d4540b675be848b13d5614adc3da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/LittleRobotSoundFactory_Logo_Big_00.png using Guid(847d4540b675be848b13d5614adc3da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e471c484dad5a3c1c108afb3c819534') in 0.135404 seconds
+  Import took 0.156413 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/Prefabs/UFO.prefab
-  artifactKey: Guid(fb347c5a9dce38b4d99607825b82fc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UFO.prefab using Guid(fb347c5a9dce38b4d99607825b82fc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe22ca445711be88198a2c5d9480afa') in 0.078872 seconds
-  Import took 0.101452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005103 seconds.
-  path: Assets/Prefabs/SunnyText.prefab
-  artifactKey: Guid(2e246fed45a0ee34193c647b39be684a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SunnyText.prefab using Guid(2e246fed45a0ee34193c647b39be684a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32b584855346c319034821662de8808') in 0.066186 seconds
-  Import took 0.114226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Prefabs/SpaceText.prefab
-  artifactKey: Guid(c60bd9ff77af40f48b5178c9f10d91e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SpaceText.prefab using Guid(c60bd9ff77af40f48b5178c9f10d91e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd08348791a054525dab1fd02d578ec2') in 0.017985 seconds
-  Import took 0.039174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.640095 seconds.
-  path: Assets/Scenes/FourthLevel.unity
-  artifactKey: Guid(5cd6bf699b73da1479269d383ccfd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/FourthLevel.unity using Guid(5cd6bf699b73da1479269d383ccfd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6815add755e78a3ea8078df7293e83c') in 0.013332 seconds
-  Import took 0.019731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004504 seconds.
-  path: Assets/Scenes/FourthLevel.unity
-  artifactKey: Guid(5cd6bf699b73da1479269d383ccfd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/FourthLevel.unity using Guid(5cd6bf699b73da1479269d383ccfd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6815add755e78a3ea8078df7293e83c') in 0.005890 seconds
-  Import took 0.011770 seconds .
-
-========================================================================
-Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Reloading mono domain
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003446 seconds.
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.671 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.003989 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.587 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 42.1 MB.
-System memory in use after: 42.2 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1988.
-Total: 2.624500 ms (FindLiveObjects: 0.484300 ms CreateObjectMapping: 0.144100 ms MarkObjects: 1.955100 ms  DeleteObjects: 0.038700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 201.512680 seconds.
-  path: Assets/Scenes/SeventhLevel.unity
-  artifactKey: Guid(df19a581195e11a41bbf05dc01e616b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SeventhLevel.unity using Guid(df19a581195e11a41bbf05dc01e616b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd2170556495d798f8f0837da4b6662') in 0.092173 seconds
-  Import took 0.113901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 151.007709 seconds.
-  path: Assets/Sprites/UISprites/MenuBtn.png
-  artifactKey: Guid(377a0a70cc1cdc44abad475ab32cb9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/MenuBtn.png using Guid(377a0a70cc1cdc44abad475ab32cb9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8831352b8b6b4f80c6b59ad6e6d2cfd5') in 0.113992 seconds
-  Import took 0.182702 seconds .
-
-========================================================================
-Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Reloading mono domain
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003155 seconds.
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 150.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.037 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.007040 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.872 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 42.2 MB.
-System memory in use after: 42.3 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1995.
-Total: 2.750000 ms (FindLiveObjects: 0.395600 ms CreateObjectMapping: 0.090700 ms MarkObjects: 2.234100 ms  DeleteObjects: 0.027400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 171.552747 seconds.
-  path: Assets/Sprites/UISprites/jumpCtrler - Copia - Copia (2).png
-  artifactKey: Guid(f864c8c06ea0a1e47b12f928a714f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/jumpCtrler - Copia - Copia (2).png using Guid(f864c8c06ea0a1e47b12f928a714f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67898b38d069f4190e9ca6c6edccbcac') in 0.097298 seconds
-  Import took 0.102490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.294242 seconds.
-  path: Assets/Sprites/UISprites/jumpCtrler - Copia - Copia.png
-  artifactKey: Guid(9cba45f6f0e33294d8a17abd5277f880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/jumpCtrler - Copia - Copia.png using Guid(9cba45f6f0e33294d8a17abd5277f880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc93a422ee5f83cb8d893fd03f01390') in 0.039608 seconds
-  Import took 0.053881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 132.155565 seconds.
-  path: Assets/Sprites/UISprites/Achievment_icon.png
-  artifactKey: Guid(d4949f3d636c5f04693ac1aaab5fc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/Achievment_icon.png using Guid(d4949f3d636c5f04693ac1aaab5fc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd8d6fffe3923f636378c5f3d9c7e04') in 0.056219 seconds
-  Import took 0.084316 seconds .
-
-========================================================================
-Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Reloading mono domain
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003555 seconds.
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.075 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.003794 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.961 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 42.3 MB.
-System memory in use after: 42.4 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2003.
-Total: 4.123000 ms (FindLiveObjects: 0.825600 ms CreateObjectMapping: 0.219200 ms MarkObjects: 3.042700 ms  DeleteObjects: 0.032700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 103.051870 seconds.
-  path: Assets/Sprites/UISprites/Watch_video_Icon.png
-  artifactKey: Guid(6a1c593935284e34e97ac3548ec900d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/Watch_video_Icon.png using Guid(6a1c593935284e34e97ac3548ec900d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421b3b9c639765c29eb5ed30f93305cc') in 0.098731 seconds
-  Import took 0.137959 seconds .
-
-========================================================================
-Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Reloading mono domain
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005184 seconds.
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.994 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.004220 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.734 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 42.4 MB.
-System memory in use after: 42.5 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2010.
-Total: 10.484600 ms (FindLiveObjects: 2.636800 ms CreateObjectMapping: 1.339800 ms MarkObjects: 6.460300 ms  DeleteObjects: 0.044300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.564934 seconds.
+  Time since last request: 0.000403 seconds.
   path: Assets/Sprites/UISprites/RedBtn2.png
   artifactKey: Guid(6ed7551fefc32ef4b8163662ef220504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/RedBtn2.png using Guid(6ed7551fefc32ef4b8163662ef220504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1344d16a19263c1236b00dab7f41f731') in 0.115730 seconds
-  Import took 0.138267 seconds .
+Start importing Assets/Sprites/UISprites/RedBtn2.png using Guid(6ed7551fefc32ef4b8163662ef220504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3b4c3a258121024290d36b81090d14') in 0.131860 seconds
+  Import took 0.160180 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.133379 seconds.
+  Time since last request: 0.000495 seconds.
   path: Assets/Sprites/UISprites/OrangeBtn1.png
   artifactKey: Guid(a8bbb7cedb4611240a0133ccede105d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/OrangeBtn1.png using Guid(a8bbb7cedb4611240a0133ccede105d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167bd10eb07e6ef3487a97959e4c36c1') in 0.038097 seconds
-  Import took 0.076246 seconds .
+Start importing Assets/Sprites/UISprites/OrangeBtn1.png using Guid(a8bbb7cedb4611240a0133ccede105d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77a9e77f95d1782b92d8c5eebf7e6f7') in 0.228345 seconds
+  Import took 0.254180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Sprites/UISprites/PlayBtn.png
+  artifactKey: Guid(6d6e2b418d0cc6c42a51c274646461a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/PlayBtn.png using Guid(6d6e2b418d0cc6c42a51c274646461a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe628524a78180b481725f12397cafc3') in 0.075222 seconds
+  Import took 0.099563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Sprites/UISprites/Watch_video_Icon.png
+  artifactKey: Guid(6a1c593935284e34e97ac3548ec900d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/Watch_video_Icon.png using Guid(6a1c593935284e34e97ac3548ec900d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd82bd5901b4538e798f5a418a978e1d') in 0.102827 seconds
+  Import took 0.119233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.051085 seconds.
+  path: Assets/Sprites/UISprites/Achievment_icon.png
+  artifactKey: Guid(d4949f3d636c5f04693ac1aaab5fc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/Achievment_icon.png using Guid(d4949f3d636c5f04693ac1aaab5fc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ec1f6a66b672e14dd1317b29f75dee') in 0.107767 seconds
+  Import took 0.113147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Sprites/UISprites/CloseBtn.png
+  artifactKey: Guid(d3502882c10b9004fb84880a4a5a99cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/CloseBtn.png using Guid(d3502882c10b9004fb84880a4a5a99cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e0fb7c4e50f7cdf7abe34ed013966c') in 0.046685 seconds
+  Import took 0.073620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002428 seconds.
+  path: Assets/Sprites/UISprites/Icon.png
+  artifactKey: Guid(b77baea34d8acbd42ba9f782ef81ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/Icon.png using Guid(b77baea34d8acbd42ba9f782ef81ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c960bcdb808851b70bbedccf5d279d') in 0.236178 seconds
+  Import took 0.264848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Sprites/UISprites/Icon1024.png
+  artifactKey: Guid(ed9fed281b8c8a340aa8351cc52767c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/Icon1024.png using Guid(ed9fed281b8c8a340aa8351cc52767c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f16bb44468fa9711c02d240a0e4468') in 0.231373 seconds
+  Import took 0.236031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Sprites/UISprites/jumpCtrler - Copia - Copia (2).png
+  artifactKey: Guid(f864c8c06ea0a1e47b12f928a714f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/jumpCtrler - Copia - Copia (2).png using Guid(f864c8c06ea0a1e47b12f928a714f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46479d30598c1922fefe0d700a75aeb') in 0.108137 seconds
+  Import took 0.149134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Sprites/UISprites/jumpCtrler - Copia - Copia.png
+  artifactKey: Guid(9cba45f6f0e33294d8a17abd5277f880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/jumpCtrler - Copia - Copia.png using Guid(9cba45f6f0e33294d8a17abd5277f880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91f62d92e921f6655f361552c2e2fb3') in 0.101044 seconds
+  Import took 0.115183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Sprites/UISprites/Button.png
+  artifactKey: Guid(be859fb7f90e8e94b99456b86a15bfea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites/Button.png using Guid(be859fb7f90e8e94b99456b86a15bfea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ed0e3926cc0223a93db9e3af0b2b2b') in 0.809819 seconds
+  Import took 0.816707 seconds .
 
 ========================================================================
 Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
 Reloading mono domain
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008777 seconds.
+Registered in 0.005115 seconds.
 Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 63.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.002 seconds
+- Completed reload, in  1.893 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003803 seconds.
+Registered in 0.004010 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.795 seconds
+- Completed reload, in  1.828 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 42.5 MB.
-System memory in use after: 42.6 MB.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.7 MB.
+System memory in use after: 41.8 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2017.
-Total: 3.827000 ms (FindLiveObjects: 0.533400 ms CreateObjectMapping: 0.119000 ms MarkObjects: 3.113800 ms  DeleteObjects: 0.057300 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1956.
+Total: 4.801000 ms (FindLiveObjects: 0.408400 ms CreateObjectMapping: 0.091700 ms MarkObjects: 4.237900 ms  DeleteObjects: 0.060500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 112.964368 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(0091f811252ffe446a5922f2765906af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(0091f811252ffe446a5922f2765906af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030459f276a9b74f188d4c2cbcc1dd97') in 0.030399 seconds
-  Import took 0.060274 seconds .
-
-========================================================================
-Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Reloading mono domain
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005190 seconds.
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 95.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.282 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.003827 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.974 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 42.6 MB.
-System memory in use after: 42.7 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2021.
-Total: 4.756400 ms (FindLiveObjects: 0.532700 ms CreateObjectMapping: 0.187000 ms MarkObjects: 3.995200 ms  DeleteObjects: 0.039400 ms)
+  Time since last request: 3266.262187 seconds.
+  path: Assets/Sprites/BulletSprites/Bullet1.png
+  artifactKey: Guid(d46fd5e3aa8520a4d82c5f9a51f74b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BulletSprites/Bullet1.png using Guid(d46fd5e3aa8520a4d82c5f9a51f74b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b25f76f21b8183bf078c29bc0869db3') in 0.831496 seconds
+  Import took 0.955539 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 499.185591 seconds.
-  path: Assets/Scenes/SixthLevel.unity
-  artifactKey: Guid(cbdde320533835e4b9630e201a06bc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SixthLevel.unity using Guid(cbdde320533835e4b9630e201a06bc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0487552a190a5e13d9b8c3df0115807e') in 0.021134 seconds
-  Import took 0.064945 seconds .
-
-========================================================================
-Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Reloading mono domain
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004030 seconds.
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.138 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.004780 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.068 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 42.6 MB.
-System memory in use after: 42.7 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2025.
-Total: 2.772700 ms (FindLiveObjects: 0.454300 ms CreateObjectMapping: 0.085500 ms MarkObjects: 2.192400 ms  DeleteObjects: 0.037600 ms)
+  Time since last request: 0.000597 seconds.
+  path: Assets/Sprites/BulletSprites/Bullet2.png
+  artifactKey: Guid(21fdac08a32e4c7499c76dd2ca7d74c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BulletSprites/Bullet2.png using Guid(21fdac08a32e4c7499c76dd2ca7d74c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50985cb970041c9e699c4ef288bcfbdc') in 0.352205 seconds
+  Import took 0.533936 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 347.818127 seconds.
+  Time since last request: 6.238151 seconds.
+  path: Assets/Scenes/FirstLevel.unity
+  artifactKey: Guid(16e011e31c46e014ab9eb4a0a9b898b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FirstLevel.unity using Guid(16e011e31c46e014ab9eb4a0a9b898b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7419454922f799917f2c323703dfa6') in 0.052908 seconds
+  Import took 0.105851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Scenes/SecondLevel.unity
+  artifactKey: Guid(0d952d9d3fdfa5f47a0e4330a6bfda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SecondLevel.unity using Guid(0d952d9d3fdfa5f47a0e4330a6bfda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26152802286aee03473f8c9f7596e2aa') in 0.075904 seconds
+  Import took 0.115070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000680 seconds.
+  path: Assets/Scenes/FirstLevel.unity
+  artifactKey: Guid(16e011e31c46e014ab9eb4a0a9b898b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FirstLevel.unity using Guid(16e011e31c46e014ab9eb4a0a9b898b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7419454922f799917f2c323703dfa6') in 0.030327 seconds
+  Import took 0.037774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/Scenes/SecondLevel.unity
+  artifactKey: Guid(0d952d9d3fdfa5f47a0e4330a6bfda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SecondLevel.unity using Guid(0d952d9d3fdfa5f47a0e4330a6bfda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26152802286aee03473f8c9f7596e2aa') in 0.028649 seconds
+  Import took 0.045756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/Scenes/ThirdLevel.unity
+  artifactKey: Guid(6f63c0b422e40594e9be895bc32aa2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ThirdLevel.unity using Guid(6f63c0b422e40594e9be895bc32aa2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6d0c814625d83ae47a737f23999f53') in 0.116901 seconds
+  Import took 0.149262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.860424 seconds.
+  path: Assets/Scenes/FirstLevel.unity
+  artifactKey: Guid(16e011e31c46e014ab9eb4a0a9b898b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FirstLevel.unity using Guid(16e011e31c46e014ab9eb4a0a9b898b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b68d3feb784b97796eba6ec8db986a') in 0.015845 seconds
+  Import took 0.033255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.089899 seconds.
+  path: Assets/Sprites/PlayerSprites/dino-spaceship-flying-game-character.png
+  artifactKey: Guid(0a30cb859c538ad4892f546e44d86efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/dino-spaceship-flying-game-character.png using Guid(0a30cb859c538ad4892f546e44d86efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63585aa8ee0b779ff53588cc079fe851') in 0.264662 seconds
+  Import took 0.384275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/Sprites/PlayerSprites/fish-spaceship-game-character 1.png
+  artifactKey: Guid(89f60b6b7485bcc43a5731ef07752250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/fish-spaceship-game-character 1.png using Guid(89f60b6b7485bcc43a5731ef07752250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9ca8f76256e69585c92a3817f5d063') in 0.384871 seconds
+  Import took 0.400428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Sprites/PlayerSprites/skeleton-MovingNIdle_0.png
+  artifactKey: Guid(7f7b4463f92120c49ac2b76e97ba236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/skeleton-MovingNIdle_0.png using Guid(7f7b4463f92120c49ac2b76e97ba236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7818c89fbf96bd64b82e601d37de8f5f') in 0.126118 seconds
+  Import took 0.154391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Sprites/PlayerSprites/Smiling-spaceship-game-character.png
+  artifactKey: Guid(61a02d659e2dbb246bbdba15c10bdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/Smiling-spaceship-game-character.png using Guid(61a02d659e2dbb246bbdba15c10bdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a558d5ae48c4815970a3d515fc03b15b') in 0.252892 seconds
+  Import took 0.284193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 534.739108 seconds.
+  path: Assets/Scenes/SecondLevel.unity
+  artifactKey: Guid(0d952d9d3fdfa5f47a0e4330a6bfda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SecondLevel.unity using Guid(0d952d9d3fdfa5f47a0e4330a6bfda85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961485cce619dcca1d057539d579b5a5') in 0.044512 seconds
+  Import took 0.161618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.671826 seconds.
+  path: Assets/Scenes/FourthLevel.unity
+  artifactKey: Guid(5cd6bf699b73da1479269d383ccfd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FourthLevel.unity using Guid(5cd6bf699b73da1479269d383ccfd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc329e23ea6e0a3a008eb930e86bac1') in 0.063906 seconds
+  Import took 0.089708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.971133 seconds.
   path: Assets/Scenes/FifthLevel.unity
   artifactKey: Guid(3e92a2ecca1a5ec4c93ce0cece0fe284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/FifthLevel.unity using Guid(3e92a2ecca1a5ec4c93ce0cece0fe284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884f0dc3a05c659bb926d85a5aabb1c8') in 0.021852 seconds
-  Import took 0.026244 seconds .
+Start importing Assets/Scenes/FifthLevel.unity using Guid(3e92a2ecca1a5ec4c93ce0cece0fe284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3978a6b1eca912f4e9f7f51ce965c89f') in 0.099538 seconds
+  Import took 0.136013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.309378 seconds.
+  path: Assets/Scenes/SixthLevel.unity
+  artifactKey: Guid(cbdde320533835e4b9630e201a06bc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SixthLevel.unity using Guid(cbdde320533835e4b9630e201a06bc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf302c44c16799dd018d36c5f378c58') in 0.020510 seconds
+  Import took 0.054957 seconds .
 
 ========================================================================
 Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
-Cannot set VR devices because the platform passed isn't supported by Unity.
-
 Reloading mono domain
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007332 seconds.
+Registered in 0.005442 seconds.
 Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 79.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.213 seconds
+- Completed reload, in  2.500 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003894 seconds.
+Registered in 0.004928 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GIT\Space_Wars\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.632 seconds
+- Completed reload, in  2.087 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 42.7 MB.
-System memory in use after: 42.8 MB.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.8 MB.
+System memory in use after: 42.0 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2029.
-Total: 5.525100 ms (FindLiveObjects: 0.921800 ms CreateObjectMapping: 0.205100 ms MarkObjects: 4.352300 ms  DeleteObjects: 0.042200 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1969.
+Total: 5.536600 ms (FindLiveObjects: 1.006800 ms CreateObjectMapping: 0.243400 ms MarkObjects: 4.234700 ms  DeleteObjects: 0.047900 ms)
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
