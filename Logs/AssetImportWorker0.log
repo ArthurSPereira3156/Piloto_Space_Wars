@@ -15,7 +15,7 @@ D:/Git/Piloto_Space_Wars
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52331
+50243
 Successfully changed project path to: D:/Git/Piloto_Space_Wars
 D:/Git/Piloto_Space_Wars
 Using Asset Import Pipeline V2.
@@ -41,7 +41,7 @@ Cannot set VR devices because the platform passed isn't supported by Unity.
 
 Cannot set VR devices because the platform passed isn't supported by Unity.
 
-Refreshing native plugins compatible for Editor in 81.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 53.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0b4 (7b778e331e0b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/Resources/UnitySubsystems
@@ -60,32 +60,32 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004962 seconds.
+Registered in 0.003968 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.76 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 48.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.806 seconds
+- Completed reload, in  3.590 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003770 seconds.
+Registered in 0.006895 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.681 seconds
+- Completed reload, in  1.451 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -111,133 +111,884 @@ Cannot set VR devices because the platform passed isn't supported by Unity.
 
 Cannot set VR devices because the platform passed isn't supported by Unity.
 
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
 System memory in use after: 65.3 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 1817.
-Total: 3.163500 ms (FindLiveObjects: 0.502100 ms CreateObjectMapping: 0.085100 ms MarkObjects: 2.504100 ms  DeleteObjects: 0.070200 ms)
+Total: 2.285000 ms (FindLiveObjects: 0.325800 ms CreateObjectMapping: 0.061700 ms MarkObjects: 1.828200 ms  DeleteObjects: 0.067600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Credits.unity
-  artifactKey: Guid(5e028ad5395ce0f4d89fd4c9a6bd8749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Credits.unity using Guid(5e028ad5395ce0f4d89fd4c9a6bd8749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728fa493621dc51f7535babba83a2b17') in 0.520626 seconds
-  Import took 0.589953 seconds .
+  path: Assets/Scripts/PlayerScripts/PlayerHealth.cs
+  artifactKey: Guid(662faa73d9427084797d0262e92d0e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScripts/PlayerHealth.cs using Guid(662faa73d9427084797d0262e92d0e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a50ae5c78679ee761eabdcc04ffd898') in 0.529864 seconds
+  Import took 0.719494 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.036534 seconds.
-  path: Assets/Scenes/FourthLevel.unity
-  artifactKey: Guid(5cd6bf699b73da1479269d383ccfd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/FourthLevel.unity using Guid(5cd6bf699b73da1479269d383ccfd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b7e04e37670d3b6cf4cb96a53495f9') in 0.004844 seconds
-  Import took 0.080227 seconds .
+  Time since last request: 0.000743 seconds.
+  path: Assets/Scripts/PlayerScripts/BulletBehaviour.cs
+  artifactKey: Guid(91014a7f22334674fb4dd7d774767fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScripts/BulletBehaviour.cs using Guid(91014a7f22334674fb4dd7d774767fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9422028f027242a2955f32f9819df14') in 0.021270 seconds
+  Import took 0.363005 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000710 seconds.
-  path: Assets/Scenes/SeventhLevel.unity
-  artifactKey: Guid(df19a581195e11a41bbf05dc01e616b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SeventhLevel.unity using Guid(df19a581195e11a41bbf05dc01e616b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301322f813b00d63ceb916f48e909ccd') in 0.010702 seconds
-  Import took 0.018384 seconds .
+  Time since last request: 67.033879 seconds.
+  path: Assets/Scripts/PlayerScripts/PlayerScore.cs
+  artifactKey: Guid(977848b8c5b43184abae39d4e974db8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScripts/PlayerScore.cs using Guid(977848b8c5b43184abae39d4e974db8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a4e42ee5b65513571f65472130b0f1') in 0.011761 seconds
+  Import took 0.440554 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000682 seconds.
-  path: Assets/Scenes/SecondLevelSettings.lighting
-  artifactKey: Guid(7c3b1492040ffb544b90edaa1035d4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SecondLevelSettings.lighting using Guid(7c3b1492040ffb544b90edaa1035d4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: 'e0efc52f026bc223c45aa372f0244ef3') in 0.147040 seconds
-  Import took 0.153093 seconds .
+  Time since last request: 0.378830 seconds.
+  path: Assets/Scripts/PlayerScripts/PlayerInstantiation.cs
+  artifactKey: Guid(c093352e90404174791e53406de527a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScripts/PlayerInstantiation.cs using Guid(c093352e90404174791e53406de527a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b2f22c8d328a2df0165f0eea1ee3f1') in 0.022861 seconds
+  Import took 0.622794 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Scenes/SixthLevel.unity
-  artifactKey: Guid(cbdde320533835e4b9630e201a06bc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SixthLevel.unity using Guid(cbdde320533835e4b9630e201a06bc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c302c6d50775a126e4fbc37e88fc8b') in 0.004516 seconds
-  Import took 0.008371 seconds .
+  Time since last request: 0.573470 seconds.
+  path: Assets/Scripts/PlayerScripts/PlayerMovement.cs
+  artifactKey: Guid(bd9ae93f7c3d6f94c8de817c27867c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScripts/PlayerMovement.cs using Guid(bd9ae93f7c3d6f94c8de817c27867c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801128f81d87ddc2be6c4f0019fd8743') in 0.040532 seconds
+  Import took 0.587275 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Scenes/ThirdLevel.unity
-  artifactKey: Guid(6f63c0b422e40594e9be895bc32aa2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ThirdLevel.unity using Guid(6f63c0b422e40594e9be895bc32aa2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fa0e41cace83585bfdc2efba58e7f9') in 0.004714 seconds
-  Import took 0.007899 seconds .
+  Time since last request: 0.000403 seconds.
+  path: Assets/Scripts/PlayerScripts/PlayerShoot.cs
+  artifactKey: Guid(7036b9f91e889aa4a8b3e7420e3584ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScripts/PlayerShoot.cs using Guid(7036b9f91e889aa4a8b3e7420e3584ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39a711dbf82ffcde6fb2fa0f2791928') in 0.011865 seconds
+  Import took 0.038151 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 92.957471 seconds.
-  path: Assets/Sprites/UISprites/CloseBtn.png
-  artifactKey: Guid(d3502882c10b9004fb84880a4a5a99cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/CloseBtn.png using Guid(d3502882c10b9004fb84880a4a5a99cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a991180a31cab666a296fa44b00b403c') in 0.320475 seconds
-  Import took 0.367128 seconds .
+  Time since last request: 0.003229 seconds.
+  path: Assets/Scripts/PlayerScripts/PlayerShoot.cs
+  artifactKey: Guid(7036b9f91e889aa4a8b3e7420e3584ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScripts/PlayerShoot.cs using Guid(7036b9f91e889aa4a8b3e7420e3584ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39a711dbf82ffcde6fb2fa0f2791928') in 0.006505 seconds
+  Import took 0.010877 seconds .
+
+========================================================================
+Received Prepare
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005321 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 64.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.758 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004434 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.723 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.5 MB.
+System memory in use after: 38.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1821.
+Total: 5.148800 ms (FindLiveObjects: 0.654400 ms CreateObjectMapping: 0.211700 ms MarkObjects: 4.230600 ms  DeleteObjects: 0.048500 ms)
+
+========================================================================
+Received Prepare
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010117 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 128.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.617 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008764 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.389 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.6 MB.
+System memory in use after: 38.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1825.
+Total: 4.959000 ms (FindLiveObjects: 0.599700 ms CreateObjectMapping: 0.163200 ms MarkObjects: 4.143400 ms  DeleteObjects: 0.048800 ms)
+
+========================================================================
+Received Prepare
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015036 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 142.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.488 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008958 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.084 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.7 MB.
+System memory in use after: 38.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1829.
+Total: 6.003200 ms (FindLiveObjects: 1.032700 ms CreateObjectMapping: 0.471000 ms MarkObjects: 4.442900 ms  DeleteObjects: 0.051800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Sprites/UISprites/Icon.png
-  artifactKey: Guid(b77baea34d8acbd42ba9f782ef81ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/Icon.png using Guid(b77baea34d8acbd42ba9f782ef81ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb00876513ab8aca5771eb16e92a354') in 0.179583 seconds
-  Import took 0.184032 seconds .
+  Time since last request: 1245.694953 seconds.
+  path: Assets/Sprites/PlayerSprites/Smiling-spaceship-game-character.png
+  artifactKey: Guid(61a02d659e2dbb246bbdba15c10bdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/Smiling-spaceship-game-character.png using Guid(61a02d659e2dbb246bbdba15c10bdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7370598a5b4354a4fbbf5c5b3429fe5f') in 0.468175 seconds
+  Import took 0.523670 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Sprites/UISprites/Icon1024.png
-  artifactKey: Guid(ed9fed281b8c8a340aa8351cc52767c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/Icon1024.png using Guid(ed9fed281b8c8a340aa8351cc52767c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e403fcc1e337089e4f22ab2b64c6ad42') in 0.331645 seconds
-  Import took 0.337417 seconds .
+  Time since last request: 2.874529 seconds.
+  path: Assets/Sprites/PlayerSprites/fish-spaceship-game-character 1.png
+  artifactKey: Guid(89f60b6b7485bcc43a5731ef07752250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/fish-spaceship-game-character 1.png using Guid(89f60b6b7485bcc43a5731ef07752250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d18586dc3efb870b6953a50a5c3e2ad') in 0.046911 seconds
+  Import took 0.084517 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Sprites/UISprites/Icon.png
-  artifactKey: Guid(b77baea34d8acbd42ba9f782ef81ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/Icon.png using Guid(b77baea34d8acbd42ba9f782ef81ed73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb00876513ab8aca5771eb16e92a354') in 0.023194 seconds
-  Import took 0.027842 seconds .
+  Time since last request: 12.847945 seconds.
+  path: Assets/Sprites/PlayerSprites/dino-spaceship-flying-game-character.png
+  artifactKey: Guid(0a30cb859c538ad4892f546e44d86efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/dino-spaceship-flying-game-character.png using Guid(0a30cb859c538ad4892f546e44d86efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5b50deacc333989f48396a67e4f0df') in 0.036843 seconds
+  Import took 0.082274 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Sprites/UISprites/jumpCtrler - Copia - Copia (2).png
-  artifactKey: Guid(f864c8c06ea0a1e47b12f928a714f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/jumpCtrler - Copia - Copia (2).png using Guid(f864c8c06ea0a1e47b12f928a714f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777fcc82978765ad2ee3348d7bd6b61c') in 0.049449 seconds
-  Import took 0.053864 seconds .
+  Time since last request: 1.376719 seconds.
+  path: Assets/Sprites/PlayerSprites/skeleton-MovingNIdle_0.png
+  artifactKey: Guid(7f7b4463f92120c49ac2b76e97ba236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/skeleton-MovingNIdle_0.png using Guid(7f7b4463f92120c49ac2b76e97ba236c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4d1f9688b8b90e9d55b0e4fc7937c1') in 0.042982 seconds
+  Import took 0.150250 seconds .
+
+========================================================================
+Received Prepare
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010429 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 135.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.248 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008862 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.514 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.8 MB.
+System memory in use after: 42.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1843.
+Total: 5.214800 ms (FindLiveObjects: 0.609200 ms CreateObjectMapping: 0.181700 ms MarkObjects: 4.366800 ms  DeleteObjects: 0.053100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Sprites/UISprites/jumpCtrler - Copia.png
-  artifactKey: Guid(4f935d7ad754c154eacf97409983f14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/jumpCtrler - Copia.png using Guid(4f935d7ad754c154eacf97409983f14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0a6d50b03ff3de7d79cf6f978d8192') in 0.016966 seconds
-  Import took 0.021445 seconds .
+  Time since last request: 221.954221 seconds.
+  path: Assets/Sprites/PlayerSprites/skeleton-MovingNIdle_3.png
+  artifactKey: Guid(7d348efcef3df2d4a96ecb3573dfbf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/skeleton-MovingNIdle_3.png using Guid(7d348efcef3df2d4a96ecb3573dfbf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c17e47e399dee2ebf6531ce58feb4cc') in 0.216406 seconds
+  Import took 0.227044 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Sprites/UISprites/jumpCtrler - Copia - Copia.png
-  artifactKey: Guid(9cba45f6f0e33294d8a17abd5277f880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/jumpCtrler - Copia - Copia.png using Guid(9cba45f6f0e33294d8a17abd5277f880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814eef80c669f1604ed669b90029e3ac') in 0.016772 seconds
-  Import took 0.021159 seconds .
+  Time since last request: 199.382599 seconds.
+  path: Assets/Sprites/PlayerSprites/Smiling-spaceship-game-character.png
+  artifactKey: Guid(61a02d659e2dbb246bbdba15c10bdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/Smiling-spaceship-game-character.png using Guid(61a02d659e2dbb246bbdba15c10bdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717443f9833e08c20d186cfa4f864a53') in 0.045217 seconds
+  Import took 0.056391 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Sprites/UISprites/jumpCtrler.png
-  artifactKey: Guid(0b625d59cc920c94088b7a322022a676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/jumpCtrler.png using Guid(0b625d59cc920c94088b7a322022a676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446bff144dc200e9ec7d6f41d22247d5') in 0.018416 seconds
-  Import took 0.023022 seconds .
+  Time since last request: 0.020805 seconds.
+  path: Assets/Sprites/PlayerSprites/Smiling-spaceship-game-character.png
+  artifactKey: Guid(61a02d659e2dbb246bbdba15c10bdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/Smiling-spaceship-game-character.png using Guid(61a02d659e2dbb246bbdba15c10bdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717443f9833e08c20d186cfa4f864a53') in 0.036933 seconds
+  Import took 0.045055 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.059717 seconds.
-  path: Assets/Sprites/UISprites/Button.png
-  artifactKey: Guid(be859fb7f90e8e94b99456b86a15bfea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UISprites/Button.png using Guid(be859fb7f90e8e94b99456b86a15bfea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d8805f31813de91b57361d31f5792f') in 1.031736 seconds
-  Import took 1.073189 seconds .
+  Time since last request: 32.575451 seconds.
+  path: Assets/Sprites/PlayerSprites
+  artifactKey: Guid(de8193f5d988deb449c6189022aee751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites using Guid(de8193f5d988deb449c6189022aee751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768319ef9483ebf4e49198ee0538e942') in 0.010811 seconds
+  Import took 0.035832 seconds .
 
+========================================================================
+Received Prepare
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010977 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 124.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.288 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008744 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.374 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.9 MB.
+System memory in use after: 42.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 7.506300 ms (FindLiveObjects: 0.987400 ms CreateObjectMapping: 0.230200 ms MarkObjects: 6.203700 ms  DeleteObjects: 0.080200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.663038 seconds.
+  path: Assets/Sprites/PlayerSprites/fish-spaceship-game-character 1.png
+  artifactKey: Guid(89f60b6b7485bcc43a5731ef07752250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/fish-spaceship-game-character 1.png using Guid(89f60b6b7485bcc43a5731ef07752250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edd6eabb9f050b284859f0eb57966d1') in 0.180339 seconds
+  Import took 0.191574 seconds .
+
+========================================================================
+Received Prepare
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014887 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 278.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.010 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009146 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.809 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.0 MB.
+System memory in use after: 42.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1855.
+Total: 4.697600 ms (FindLiveObjects: 0.596900 ms CreateObjectMapping: 0.146100 ms MarkObjects: 3.904700 ms  DeleteObjects: 0.046600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.276788 seconds.
+  path: Assets/Sprites/PlayerSprites/dino-spaceship-flying-game-character.png
+  artifactKey: Guid(0a30cb859c538ad4892f546e44d86efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/dino-spaceship-flying-game-character.png using Guid(0a30cb859c538ad4892f546e44d86efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce61d8729e9866240b6137a0f01f06e') in 0.228411 seconds
+  Import took 0.239892 seconds .
+
+========================================================================
+Received Prepare
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010342 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 140.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.096 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008599 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.1 MB.
+System memory in use after: 42.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1860.
+Total: 5.607400 ms (FindLiveObjects: 0.612400 ms CreateObjectMapping: 0.160600 ms MarkObjects: 4.771200 ms  DeleteObjects: 0.058500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.805190 seconds.
+  path: Assets/Sprites/EnvironmentSprites
+  artifactKey: Guid(f4607a1e64be6704fa64d6b8f3ae067e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnvironmentSprites using Guid(f4607a1e64be6704fa64d6b8f3ae067e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a992d89330ca2ddffdf6eee38047e4') in 0.014132 seconds
+  Import took 0.022603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.269261 seconds.
+  path: Assets/Sprites/EnvironmentSprites/full-background.png
+  artifactKey: Guid(75436dbb12f277840b85aedfebef272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnvironmentSprites/full-background.png using Guid(75436dbb12f277840b85aedfebef272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee47303ddd671c3c45c4a1321cd13948') in 0.485644 seconds
+  Import took 0.495021 seconds .
+
+========================================================================
+Received Prepare
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013088 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 174.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.355 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009316 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.188 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.2 MB.
+System memory in use after: 42.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1865.
+Total: 4.916700 ms (FindLiveObjects: 0.612500 ms CreateObjectMapping: 0.150000 ms MarkObjects: 4.102900 ms  DeleteObjects: 0.047900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.108077 seconds.
+  path: Assets/Sprites/EnvironmentSprites/full-bg.png
+  artifactKey: Guid(b25db01bf9d1fd94bb2d58cea04d167c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnvironmentSprites/full-bg.png using Guid(b25db01bf9d1fd94bb2d58cea04d167c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc3aa48fb0fff3633d3d22d73f84883') in 0.234779 seconds
+  Import took 0.258831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.066979 seconds.
+  path: Assets/Sprites/EnvironmentSprites/full-bg 1.png
+  artifactKey: Guid(5be6df8c24ac96043bf08c1c0bb3e241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnvironmentSprites/full-bg 1.png using Guid(5be6df8c24ac96043bf08c1c0bb3e241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3ea8a377664d5ad8440aa0d8d52c36') in 0.094382 seconds
+  Import took 0.126364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.633970 seconds.
+  path: Assets/Sprites/EnvironmentSprites/full-background 2.png
+  artifactKey: Guid(e256667a9c656444083fa260e6ccf07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnvironmentSprites/full-background 2.png using Guid(e256667a9c656444083fa260e6ccf07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62498110cd51bfc3f043fc165ceb00ae') in 0.146615 seconds
+  Import took 0.168956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.161202 seconds.
+  path: Assets/Sprites/EnvironmentSprites/Full-Background 4.png
+  artifactKey: Guid(a83d631d06c4d1341a91205118133c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnvironmentSprites/Full-Background 4.png using Guid(a83d631d06c4d1341a91205118133c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644847e2ba37627ab8c3158cb25a4218') in 0.131240 seconds
+  Import took 0.150319 seconds .
+
+========================================================================
+Received Prepare
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010330 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 143.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.871 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008991 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.165 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.3 MB.
+System memory in use after: 42.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1869.
+Total: 4.964400 ms (FindLiveObjects: 0.655000 ms CreateObjectMapping: 0.196600 ms MarkObjects: 4.057900 ms  DeleteObjects: 0.051000 ms)
+
+========================================================================
+Received Prepare
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010994 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 132.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.199 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010790 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.782 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.4 MB.
+System memory in use after: 42.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1873.
+Total: 4.859700 ms (FindLiveObjects: 0.635700 ms CreateObjectMapping: 0.153800 ms MarkObjects: 3.995400 ms  DeleteObjects: 0.069900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.114609 seconds.
+  path: Assets/Sprites/EnvironmentSprites/full-background.png
+  artifactKey: Guid(75436dbb12f277840b85aedfebef272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnvironmentSprites/full-background.png using Guid(75436dbb12f277840b85aedfebef272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6992082a36c1b7c0163fe442f5a579d') in 0.226233 seconds
+  Import took 0.256223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.764372 seconds.
+  path: Assets/Sprites/EnvironmentSprites/full-background.png
+  artifactKey: Guid(75436dbb12f277840b85aedfebef272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnvironmentSprites/full-background.png using Guid(75436dbb12f277840b85aedfebef272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6992082a36c1b7c0163fe442f5a579d') in 0.133866 seconds
+  Import took 0.143217 seconds .
+
+========================================================================
+Received Prepare
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005345 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 64.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.010 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004610 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Git\Piloto_Space_Wars\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.929 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.5 MB.
+System memory in use after: 42.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1877.
+Total: 2.817400 ms (FindLiveObjects: 0.386800 ms CreateObjectMapping: 0.082800 ms MarkObjects: 2.312100 ms  DeleteObjects: 0.033200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
