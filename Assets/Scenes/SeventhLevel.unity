@@ -141,6 +141,12 @@ PrefabInstance:
       propertyPath: m_Text
       value: TARGET SCORE = 5000
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010872601262, guid: d119a8e95e456764881ede55186d772c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d4949f3d636c5f04693ac1aaab5fc67a,
+        type: 3}
     - target: {fileID: 114000010945173920, guid: d119a8e95e456764881ede55186d772c,
         type: 3}
       propertyPath: scoreToWin
@@ -151,6 +157,12 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: d3502882c10b9004fb84880a4a5a99cb,
+        type: 3}
+    - target: {fileID: 114000011051934556, guid: d119a8e95e456764881ede55186d772c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d4949f3d636c5f04693ac1aaab5fc67a,
         type: 3}
     - target: {fileID: 114000011060593468, guid: d119a8e95e456764881ede55186d772c,
         type: 3}
@@ -199,6 +211,12 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 6d6e2b418d0cc6c42a51c274646461a6,
+        type: 3}
+    - target: {fileID: 114000013158833296, guid: d119a8e95e456764881ede55186d772c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d4949f3d636c5f04693ac1aaab5fc67a,
         type: 3}
     - target: {fileID: 114000013351224450, guid: d119a8e95e456764881ede55186d772c,
         type: 3}
