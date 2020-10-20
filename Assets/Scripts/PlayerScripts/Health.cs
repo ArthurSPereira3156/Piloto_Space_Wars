@@ -2,6 +2,9 @@
 using System.Collections;
 
 public abstract class Health : MonoBehaviour {
+    public static string ANIMATION_HIT = "hit";
+    public static string ANIMATION_DEAD = "dead";
+    private Animator animator;
 
     [SerializeField]
     protected int health;
@@ -31,6 +34,7 @@ public abstract class Health : MonoBehaviour {
         //instantiate the explosionPrefab and store it in explosion
         explosion = Instantiate(explosionPrefab);
         explosion.SetActive(false);
+        animator = GetComponent<Animator>();
     }
 
     void OnEnable()
@@ -51,8 +55,9 @@ public abstract class Health : MonoBehaviour {
         }
 
         //if the health drops below 0 then push it back up to 0
-        if (health < 0)
-            health = 0;
+        if (health < 0) {
+            health = 0; 
+        }
     }
 
     void OnDisable()
@@ -64,9 +69,35 @@ public abstract class Health : MonoBehaviour {
     public void Damage(int damage)
     {
         health -= damage;
+        try
+        {
+            print("DAMAGE INIMIGO");
+        ChangeAnimation(ANIMATION_HIT);
+        }
+        catch (System.Exception)
+        {
+            
+            throw;
+        }
+        
     }
 
     //method to kill the character
+    public void DieWhithAnimation()
+    {
+        //changes isDead to true to confirm the character is dead...
+        isDead = true;
+        //...puts their health to 0 just to be sure...
+        health = 0;
+        //...move the explosion to the characters position and rotation...
+        explosion.transform.position = transform.position;
+        explosion.transform.rotation = transform.rotation;
+        //...enables the explosion, disables the character and disables the explosion in 0.5f seconds
+        //explosion.SetActive(true);
+        //gameObject.SetActive(false);
+        Invoke("DisableWhithAnimation", 1f);
+        ChangeAnimation(ANIMATION_DEAD);
+    }
     public void Die()
     {
         //changes isDead to true to confirm the character is dead...
@@ -79,12 +110,20 @@ public abstract class Health : MonoBehaviour {
         //...enables the explosion, disables the character and disables the explosion in 0.5f seconds
         explosion.SetActive(true);
         gameObject.SetActive(false);
-
         Invoke("Disable", 0.5f);
     }
 
     public void Disable()
     {
         explosion.SetActive(false);
+    }
+    public void DisableWhithAnimation()
+    {
+        //explosion.SetActive(false);
+        gameObject.SetActive(false);
+    }
+
+    public void ChangeAnimation(string animation) {
+        animator.SetTrigger(animation);
     }
 }

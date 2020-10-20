@@ -24,7 +24,7 @@ public class EnemyHealth : Health
                 OnShakeCamera();
 
             //..then it will die 
-            Die();
+            DieWhithAnimation();
         }
 
         //If the enemies collides with a bullet...
