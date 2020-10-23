@@ -450,7 +450,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
-    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -550,6 +549,24 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: cb65b03e818121e45bb106c63e1ed935, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22619c272357070459e29033fe01eac7, type: 3}
+--- !u!1 &837888340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000010013564358, guid: 6cf7b31399a7b6048b7d43ab564d5064,
+    type: 3}
+  m_PrefabInstance: {fileID: 1932185353}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &837888341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837888340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a537f6cba27c4b64297e9fad66e182be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1008486464
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,7 +681,7 @@ LightingSettings:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Settings.lighting
-  serializedVersion: 3
+  serializedVersion: 2
   m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 0
   m_EnableRealtimeLightmaps: 0
@@ -703,7 +720,7 @@ LightingSettings:
   m_PVREnvironmentReferencePointCount: 2048
   m_LightProbeSampleCountMultiplier: 4
   m_PVRBounces: 2
-  m_PVRMinBounces: 2
+  m_PVRRussianRouletteStartBounce: 2
   m_PVREnvironmentMIS: 0
   m_PVRFilteringMode: 0
   m_PVRDenoiserTypeDirect: 0
