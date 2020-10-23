@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Advertisements;
 
 public abstract class Health : MonoBehaviour {
     public static string ANIMATION_HIT = "hit";
@@ -51,7 +52,7 @@ public abstract class Health : MonoBehaviour {
         if (health <= 0 && !isDead)
         {
             //...then kill them
-            Die();
+            DieWhithAnimation();
         }
 
         //if the health drops below 0 then push it back up to 0
@@ -71,8 +72,8 @@ public abstract class Health : MonoBehaviour {
         health -= damage;
         try
         {
-            print("DAMAGE INIMIGO");
         ChangeAnimation(ANIMATION_HIT);
+        //print("DAMAGE INIMIGO");
         }
         catch (System.Exception)
         {
@@ -98,8 +99,9 @@ public abstract class Health : MonoBehaviour {
         Invoke("DisableWhithAnimation", 1f);
         ChangeAnimation(ANIMATION_DEAD);
     }
-    public void Die()
+    public void DieWithAD()
     {
+        //print("MOrreu 1 Inicio");
         //changes isDead to true to confirm the character is dead...
         isDead = true;
         //...puts their health to 0 just to be sure...
@@ -108,9 +110,18 @@ public abstract class Health : MonoBehaviour {
         explosion.transform.position = transform.position;
         explosion.transform.rotation = transform.rotation;
         //...enables the explosion, disables the character and disables the explosion in 0.5f seconds
-        explosion.SetActive(true);
-        gameObject.SetActive(false);
-        Invoke("Disable", 0.5f);
+        //explosion.SetActive(true);
+        //gameObject.SetActive(false);
+        Invoke("DisableWhithAnimation", 1.5f);
+        ChangeAnimation(ANIMATION_DEAD);
+        Invoke("showAdInter", 1f);
+        //print("MOrreu 1 FIM");
+    }
+
+    private void showAdInter() {
+        //print("showAdInter Inicio");
+        RewardedAdsScript.getInstance().ShowRewardedVideo();
+        //print("showAdInter FIM");
     }
 
     public void Disable()
@@ -119,6 +130,7 @@ public abstract class Health : MonoBehaviour {
     }
     public void DisableWhithAnimation()
     {
+        //print("DisableWhithAnimation Inicio");
         //explosion.SetActive(false);
         gameObject.SetActive(false);
     }

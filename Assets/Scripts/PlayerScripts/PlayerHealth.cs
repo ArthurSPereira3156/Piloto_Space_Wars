@@ -21,7 +21,7 @@ public class PlayerHealth : Health {
         if (health <= 0 && !isDead)
         {
             //...then kill them
-            Die();
+            DieWithAD();
         }
 
         //if the player is dead...
