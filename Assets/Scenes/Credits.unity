@@ -177,6 +177,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 753604893}
     m_Modifications:
+    - target: {fileID: 4000010661935374, guid: 9852dfe1e52590d40a88054537b2da96, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1056
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012725911946, guid: 9852dfe1e52590d40a88054537b2da96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -231,7 +235,7 @@ PrefabInstance:
         jingle \"Jingle_Achievement_01\"  \r\nGame over jingle \"Jingle_Lose_00\"
         \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nFont\r\n----------------------\r\n\"Luckiest
         guy\"\r\n\r\n\r\n\r\n-----------------------------------------------------------------------------\r\n\r\n\r\n\r\nTHANKS
-        FOR PLAYING!\n\nYou can find little robot sound factory at \nwww.littlerobotsoundfactory.com\n\n\n\n\n\n\n\n\n\n\n\nFont\n-----------------------\n\"Luckiest
+        FOR PLAYING!\n\n\n\n\n\n\n\n\n\nFont\n-----------------------\n\"Luckiest
         guy\"\n\n\n\n-----------------------------------------------------------------------------\n\n\n\nTHANKS
         FOR PLAYING!"
       objectReference: {fileID: 0}
@@ -244,6 +248,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012374176942, guid: 9852dfe1e52590d40a88054537b2da96,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1228
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9852dfe1e52590d40a88054537b2da96, type: 3}
